@@ -12,13 +12,14 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
     transition: 1s opacity;
 }
 .stopfade {
    opacity: .5;
 }
 
-#polina {
+#hikka {
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
   font-weight:100;
   background: rgba(0,0,0,0.3);
@@ -59,6 +60,6 @@ a {
   transition: .3s background;
 }
 
-#hikka button:hover { 
+#hikka button:hover {
    background: rgba(0,0,0,0.5);
 }
